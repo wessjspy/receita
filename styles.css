@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode #pesq{
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color: black;
+}
+
+body.dark-mode #pesq::placeholder {
+    color: rgb(0, 0, 0); 
+}
+
+.infos a{
+    text-decoration: none;
+    color: black;
+}
